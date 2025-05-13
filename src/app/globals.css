@@ -130,6 +130,8 @@ a {
 .bt-card-element {
   border: 1px solid var(--border-color);
   border-radius: 6px;
+  color: var(--text-color);
+  background-color: var(--card-background);
   padding: 0.75rem;
   font-size: 1rem;
   width: 100%;
@@ -139,4 +141,31 @@ a {
 .bt-card-element:focus {
   outline: none;
   border-color: var(--primary-color);
+}
+
+/* Token Input Group styles */
+.token-input-group {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.token-input-group .button {
+  width: auto;
+  white-space: nowrap;
+}
+
+/* Divider styles */
+.divider {
+  margin: 2rem 0;
+  border: none;
+  border-top: 1px solid var(--border-color);
+}
+
+/* JSON Display styles */
+.json-display {
+  font-size: 0.875rem;
+  overflow-x: auto;
+  white-space: pre-wrap;
+  word-break: break-all;
 }
