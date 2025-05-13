@@ -84,14 +84,14 @@ const CreditCardForm = () => {
                 style={{
                   base: {
                     fontSize: "16px",
-                    color: "var(--text-color)",
+                    color: "#1f2937",
                     fontFamily: "inherit",
                     "::placeholder": {
-                      color: "var(--text-light)",
+                      color: "#6b7280",
                     },
                   },
                   invalid: {
-                    color: "var(--error-color)",
+                    color: "#dc2626",
                   },
                 }}
               />
@@ -122,14 +122,14 @@ const CreditCardForm = () => {
               style={{
                 base: {
                   fontSize: "16px",
-                  color: "var(--text-color)",
+                  color: "#1f2937",
                   fontFamily: "inherit",
                   "::placeholder": {
-                    color: "var(--text-light)",
+                    color: "#6b7280",
                   },
                 },
                 invalid: {
-                  color: "var(--error-color)",
+                  color: "#dc2626",
                 },
               }}
             />
